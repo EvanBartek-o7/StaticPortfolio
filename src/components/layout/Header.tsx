@@ -26,7 +26,7 @@ export default function Header({ onNavigate }: HeaderProps) {
             onClick={(e) => handleClick(e, 'hero')}
             className="text-xl font-bold text-gray-900 dark:text-white hover:text-blue-600 transition-colors"
           >
-            Evan's Portfolio
+            Evan Bartek's Portfolio
           </a>
           <ul className="hidden md:flex space-x-6">
             {navItems.map((item) => (

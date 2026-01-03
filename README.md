@@ -66,6 +66,48 @@ npm run dev
    - Update social links in `src/components/layout/Footer.tsx`
    - Update contact email in `src/components/sections/Contact.tsx`
 
+### EmailJS Setup (Contact Form)
+
+The contact form uses EmailJS to send emails. To enable email functionality:
+
+1. **Sign up for EmailJS** (free tier available):
+   - Go to https://www.emailjs.com/
+   - Create a free account
+
+2. **Create an Email Service**:
+   - Navigate to Email Services in the dashboard
+   - Add a new service (Gmail, Outlook, etc.)
+   - Follow the setup instructions for your email provider
+   - Note your Service ID
+
+3. **Create an Email Template**:
+   - Go to Email Templates
+   - Create a new template
+   - Use these template variables:
+     - `{{from_name}}` - Sender's name
+     - `{{from_email}}` - Sender's email
+     - `{{message}}` - Message content
+     - `{{to_email}}` - Your email (bartekevan@gmail.com)
+   - Note your Template ID
+
+4. **Get your Public Key**:
+   - Go to Account > API Keys
+   - Copy your Public Key
+
+5. **Create Environment Variables**:
+   - Create a `.env` file in the root directory
+   - Add the following variables:
+     ```
+     VITE_EMAILJS_SERVICE_ID=your_service_id
+     VITE_EMAILJS_TEMPLATE_ID=your_template_id
+     VITE_EMAILJS_PUBLIC_KEY=your_public_key
+     ```
+   - Replace the placeholder values with your actual IDs and key
+
+6. **Restart the development server** after creating the `.env` file
+
+**Note**: Make sure to add `.env` to your `.gitignore` file to keep your keys secure!
+
 ### Styling
 
 The project uses Tailwind CSS for styling. You can customize:

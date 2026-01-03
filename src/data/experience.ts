@@ -3,45 +3,33 @@ import type { Experience } from '../types';
 export const experiences: Experience[] = [
   {
     id: '1',
-    company: 'Tech Company Inc.',
-    role: 'Senior Frontend Developer',
-    startDate: '2022-01',
+    company: 'Winsupply',
+    role: 'Web Developer Intern',
+    startDate: '2021-06',
     endDate: 'Present',
     description: [
-      'Led development of customer-facing web applications using React and TypeScript',
-      'Improved application performance by 40% through code optimization and lazy loading',
-      'Mentored junior developers and conducted code reviews',
-      'Collaborated with design and backend teams to deliver high-quality features'
+      'Collaborated with a team of 3 to build a full stack application from the ground up that integrated with existing enterprise systems which consolidated and analyzed data, increasing the efficiency of purchasing warehouse stock',
+      'Queried and ran analysis on data using SQL from a IBM DB2 database in order to determine optimizations for stocking national distribution centers according to purchasing, inventory and sales',
+      'Updated, created , and tested endpoints for an existing enterprise Tax Compliance backend',
+      'Gathered requirements from 5 local warehouses to develop an application that enabled workers to quickly update the barcode number of an item using a scanner, easing transition for an acquired company',
+      'Utilized SonarCloud to refactor and maintain legacy code, improving both time and cognitive complexity',
+      'Developed and maintained web-apps using Angular and Spring Boot Java under the Software Development Lifecycle',
+      'Wrote unit tests for front-end using Jest and back-end using Junit with Mockito, ensuring easy future development',
+      'Interacted with multiple teams using git version control and Jira, following Agile workflow and enterprise standards'
     ],
-    technologies: ['React', 'TypeScript', 'Node.js', 'GraphQL', 'Jest']
+    technologies: ['Angular', 'Spring Boot', 'Java', 'SQL', 'IBM DB2', 'Jest', 'JUnit', 'Mockito', 'SonarCloud', 'Git', 'Jira']
   },
   {
     id: '2',
-    company: 'StartupXYZ',
-    role: 'Full Stack Developer',
-    startDate: '2020-06',
+    company: 'Applied Analytics & Emerging Technology Lab (AETL)',
+    role: 'Student Worker',
+    startDate: '2021-09',
     endDate: '2021-12',
     description: [
-      'Developed and maintained full-stack web applications',
-      'Built RESTful APIs using Node.js and Express',
-      'Implemented responsive UI components with React',
-      'Worked in an agile environment with weekly sprints'
+      'Researched and Initiated front end development on a diagram plugin for the Odoo workspace',
+      'Discussed with client to ascertain what features were needed and how to achieve the desired product'
     ],
-    technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'JavaScript']
-  },
-  {
-    id: '3',
-    company: 'Digital Agency',
-    role: 'Frontend Developer',
-    startDate: '2019-03',
-    endDate: '2020-05',
-    description: [
-      'Created responsive websites for various clients',
-      'Transformed design mockups into functional web applications',
-      'Optimized websites for performance and SEO',
-      'Collaborated with designers and project managers'
-    ],
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'WordPress']
+    technologies: ['Odoo', 'Python', 'JavaScript', 'HTML', 'CSS', 'Git']
   }
 ];
 
