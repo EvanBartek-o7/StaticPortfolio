@@ -12,7 +12,7 @@ export default function About() {
             My interests span from web development with Angular and React to system-level programming in C. I enjoy working on projects that combine creativity with technical challenges. I've built everything from digital audio workstations to fitness tracking apps, always focusing on creating clean, efficient solutions.
           </p>
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            When I'm not coding, you can find me Lifting, Playing Music or Playing Games.
+            When I'm not coding, you can find me lifting, playing Music and playing games.
           </p>
         </div>
       </div>
